@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "composer.json": true,
+        "composer.lock": true,
+        "package.json": true,
+        "package-lock.json": true,
+        ".vscode": true,
+        "vendor": true,
+        "node_modules": true
+    },
+    "hide-files.files": [
+        "composer.json",
+        "composer.lock",
+        "package.json",
+        "package-lock.json",
+        ".vscode",
+        "vendor",
+        "node_modules"
+    ]
+}
